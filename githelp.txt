@@ -1,0 +1,43 @@
+
+
+user: MatejZeman02
+pwd:Ee02
+
+1. git init
+2. git config --global user.email "your_email_address@example.com"
+3. udelat repo
+4. git remote add origin https://20gZeman@bitbucket.org/20gZeman/test.git
+
+
+Vytvoření větve až po smazaní
+git checkout -b "taskX"
+git add .
+git commit -m "taskX done"
+
+git checkout master
+
+git merge taskX
+
+smazání lokální větve
+git branch -d taskX
+git push
+
+
+
+
+git check-ignore
+
+git check-ignore -v example.o Readme.md
+Vrací i pravilo, proc je soubor ignorovan
+
+git status --ignored
+
+git status --ignored --untracked-files=all
+rekurzivne i v podadresarich
+
+smazání remote větve
+git push origin --delete vetevpresun
+
+přepsání lokálních změn asi poslední cimmitnutou verzi
+git reset HEAD --hard
+

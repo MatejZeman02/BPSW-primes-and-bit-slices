@@ -1,0 +1,24 @@
+*.d
+*.o
+.d/
+.o/
+*.dat
+
+
+IsPrime/.d/IsPrime.d
+IsPrime/.d/BPSWTest.d
+IsPrime/.o/BPSWTest.o
+
+IsPrime/bin/IsPrimeTFalse
+IsPrime/bin/MainProgram
+IsPrime/bin/false/IsPrimeTFalse
+IsPrime/bin/false/SliceTBalance.txt
+IsPrime/bin/true/IsPrimeTTrue
+IsPrime/bin/true/SliceTBalance.txt
+IsPrime/bin/main
+IsPrime/bin/IsPrimeTTrue
+IsPrime/bin/mainMeasurement
+IsPrime/bin/false/SliceT.txt
+IsPrime/bin/true/SliceT Joint.txt
+IsPrime/MeasurementOnPrime_10.txt
+IsPrime/MeasurementOnPrime_24.txt
